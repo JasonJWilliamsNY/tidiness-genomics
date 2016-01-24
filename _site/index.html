@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+      <title>Genomics data - Metadata and tidiness</title>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<link href="./css/bootstrap/bootstrap.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="./css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="./css/swc.css" />
+<link rel="stylesheet" type="text/css" href="./css/swc-bootstrap.css" />
+<meta charset="UTF-8" />
+<meta http-equiv="last-modified" content="" />
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="./css/lesson.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+  <a href="http://datacarpentry.org" title="Data Carpentry">
+    <img alt="Data Carpentry banner" src="./img/DC1_logo_small.png" height="50px" />
+  </a>
+</div>
+
+
+      <div class="row-fluid">
+        <div class="span10 offset1">
+	  <!-- start content -->
+          
+          <h1>Genomics data - Metadata and tidiness</h1>
+          
+          <h2>Learning Objectives</h2>
+
+<ul>
+<li>Think about and understand the types of metadata a sequencing experiment will generate</li>
+<li>Make decisions about how (if) data will be stored, archived, shared, etc. </li>
+<li>Anticipate strategies we will need to learn in the rest of the lesson set. </li>
+</ul>
+
+<h2>Lesson</h2>
+
+<p>There are a variety ways to approach working with a large sequencing dataset. You may be a novice who has not used bioinformatics tools beyond doing BLAST searches. You may have bioinformatics experience with other types of data and are working with high-throughput (NGS) sequence data for the first time. Either way, these lessons for you! In the most important ways, the methods and approaches we need in bioinformatics are the same ones we need at the bench or in the field - planning, documenting, and organizing  will be the key to good reproducible science. </p>
+
+<h2>Discussion Questions</h2>
+
+<p>Before we go any further here are some important questions to consider. If you are learning at a workshop, please discuss these questions with your neighbor (this is a good chance to introduce yourself) and your instructors will collect your answers (on minute cards or in the Etherpad).</p>
+
+<p><strong>Metadata</strong> </p>
+
+<ol>
+<li>What is your definition of metadata?</li>
+<li>What kinds of metadata might a sequencing project generate?</li>
+</ol>
+
+<p><strong>Working with sequence data</strong></p>
+
+<ol>
+<li>What challenges do you think you&#39;ll face (or have already faced) in working with a large sequence dataset?</li>
+<li>What is your strategy for saving and sharing your sequence files?</li>
+<li>How can you be sure that your raw data are unintentionally uncorrupted?</li>
+<li>Where/how will you (did you) analyze your data - what software, what computer(s)?</li>
+</ol>
+
+<h2>Exercises</h2>
+
+<p><strong>A. Sending samples to the facility</strong></p>
+
+<p>The first step in sending your sample for sequencing will be to complete a form documenting the metadata for the facility. Take a look at the following submission spreadsheet. </p>
+
+<p><a href="./sample_submission.txt">Sample submission sheet</a>*<br></p>
+
+<blockquote>
+<p>*Download the file using right-click (PC)/command-click (Mac). This is a tab-delimited text file; try opening it with Excel or another spreadsheet program. </p>
+</blockquote>
+
+<p><strong>Questions</strong></p>
+
+<ol>
+<li>What are some errors you can spot in the data?
+
+<ul>
+<li> Typos, missing data, inconstancies?</li>
+</ul></li>
+<li>What improvements could be made to the choices in naming?</li>
+<li>What are some errors in the spreadsheet that would be difficult to spot? Is there anyway you can test this?</li>
+</ol>
+
+<p><strong>B. Retrieving samples from the facility</strong></p>
+
+<p>When the data come back from the facility, you will receive some documentation (metadata) as well as the sequence files themselves. Download and examine the following file - here provided both as an excel and a text file:</p>
+
+<ul>
+<li><a href="./sequencing_results_metadata.xlsx">Sequencing results - excel</a></li>
+<li><a href="./sequencing_results_metadata.txt">Sequencing results - text</a></li>
+</ul>
+
+<p><strong>Questions</strong></p>
+
+<ol>
+<li>How are these samples organized?</li>
+<li>If you wanted to relate file names to the sample names submitted above (e.g. wild type...) could you do so?</li>
+<li>What do the <em>R1/</em>R2 extensions mean in the file names?</li>
+<li>What does the &#39;.gz&#39; extension on the filenames indicate?</li>
+</ol>
+
+<h4>Summary</h4>
+
+<p>Before analysis of data has begun, there are already many potential areas for errors and omissions. Keeping organized and keeping a critical eye can help catch mistakes. </p>
+
+<p>One of Data Carpentry&#39;s goals is to help you achieve <em>competency</em> in working with bioinformatics. This means that you can accomplish routine tasks, under normal conditions, in an acceptable amount of time. While an expert might be able to get to a solution on instinct alone - taking your time, using Google, and asking for help are all valid ways of solving your problems. As you complete the lessons you&#39;ll be able to use all of those methods more efficiently.</p>
+
+<h4>Where to go from here</h4>
+
+<p>What are the minimum metadata standards for your experiment/datatype - </p>
+
+<p><a href="https://biosharing.org/standards/?selected_facets=isMIBBI:true&amp;selected_facets=domains_exact:DNA%20sequence%20data">Biosharing.org&#39;s listing of minimum information standards</a></p>
+
+<p>Why not everyone needs to be an expert in everything - </p>
+
+<p>L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, &#39;Bioinformatics Curriculum Guidelines: <strong>Toward a Definition of Core Competencies&#39;</strong>, PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.</p>
+
+	  <!-- end content -->
+	</div>
+      </div>
+
+      <div class="footer">
+  <a class="label swc-blue-bg" href="">Facebook</a>
+  <a class="label swc-blue-bg" href="">Google+</a>
+  <a class="label swc-blue-bg" href="">Twitter</a>
+  <a class="label swc-blue-bg" href="">GitHub</a>
+  <a class="label swc-blue-bg" href="./LICENSE.html">License</a>
+  <a class="bugreport label swc-blue-bg" href="mailto:?subject=bug%20in%20index.md">Bug Report</a>
+</div>
+
+    </div>
+    <!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
+
+  </body>
+</html>

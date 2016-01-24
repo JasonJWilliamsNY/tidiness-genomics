@@ -2,7 +2,7 @@
 layout: lesson
 root: .
 title: Genomics data - Metadata and tidiness
-minutes: 15
+minutes: 20
 ---
 
 ## Learning Objectives 
@@ -19,10 +19,12 @@ There are a variety ways to approach working with a large sequencing dataset. Yo
 Before we go any further here are some important questions to consider. If you are learning at a workshop, please discuss these questions with your neighbor (this is a good chance to introduce yourself) and your instructors will collect your answers (on minute cards or in the Etherpad).
 
 **Metadata** 
+
 1. What is your definition of metadata?
 2. What kinds of metadata might a sequencing project generate?
 
 **Working with sequence data**
+
 1. What challenges do you think you'll face (or have already faced) in working with a large sequence dataset?
 2. What is your strategy for saving and sharing your sequence files?
 3. How can you be sure that your raw data are unintentionally uncorrupted?
@@ -32,20 +34,46 @@ Before we go any further here are some important questions to consider. If you a
 
 **A. Sending samples to the facility**
 
-The first step in sending your sample for sequencing will be to complete a form documenting the metadata for the facility. Take a look at the following submission spreadsheet:
+The first step in sending your sample for sequencing will be to complete a form documenting the metadata for the facility. Take a look at the following submission spreadsheet. 
 
-**Question**
+[Sample submission sheet](./sample_submission.txt)*<br>
+> *Download the file using right-click (PC)/command-click (Mac). This is a tab-delimited text file; try opening it with Excel or another spreadsheet program. 
+
+**Questions**
+
+1. What are some errors you can spot in the data?
+    -  Typos, missing data, inconstancies?
+2. What improvements could be made to the choices in naming?
+3. What are some errors in the spreadsheet that would be difficult to spot? Is there anyway you can test this?
 
 
 **B. Retrieving samples from the facility**
 
+When the data come back from the facility, you will receive some documentation (metadata) as well as the sequence files themselves. Download and examine the following file - here provided both as an excel and a text file:
 
+- [Sequencing results - excel](./sequencing_results_metadata.xlsx)
+- [Sequencing results - text](./sequencing_results_metadata.txt)
 
-#### Where to go from here 
+**Questions**
 
+1. How are these samples organized?
+2. If you wanted to relate file names to the sample names submitted above (e.g. wild type...) could you do so?
+3. What do the _R1/_R2 extensions mean in the file names?
+4. What does the '.gz' extension on the filenames indicate?
 
+#### Summary 
 
-<br>
-####References
-Blount, Z.D., Barrick, J.E., Davidson, C.J., Lenski, R.E. Genomic analysis of a key innovation in an experimental Escherichia coli population
-(2012) Nature, 489 (7417), pp. 513-518.
+Before analysis of data has begun, there are already many potential areas for errors and omissions. Keeping organized and keeping a critical eye can help catch mistakes. 
+
+One of Data Carpentry's goals is to help you achieve *competency* in working with bioinformatics. This means that you can accomplish routine tasks, under normal conditions, in an acceptable amount of time. While an expert might be able to get to a solution on instinct alone - taking your time, using Google, and asking for help are all valid ways of solving your problems. As you complete the lessons you'll be able to use all of those methods more efficiently.
+
+#### Where to go from here
+
+What are the minimum metadata standards for your experiment/datatype - 
+
+[Biosharing.org's listing of minimum information standards](https://biosharing.org/standards/?selected_facets=isMIBBI:true&selected_facets=domains_exact:DNA%20sequence%20data)
+
+Why not everyone needs to be an expert in everything - 
+
+L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, 'Bioinformatics Curriculum Guidelines: **Toward a Definition of Core Competencies'**, PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
+
