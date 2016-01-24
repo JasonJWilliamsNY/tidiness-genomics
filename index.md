@@ -58,8 +58,9 @@ When the data come back from the facility, you will receive some documentation (
 
 1. How are these samples organized?
 2. If you wanted to relate file names to the sample names submitted above (e.g. wild type...) could you do so?
-3. What do the _R1/_R2 extensions mean in the file names?
+3. What do the \_R1/\_R2 extensions mean in the file names?
 4. What does the '.gz' extension on the filenames indicate?
+5. What is the total file size - what challenges in downloading and sharing these data might exsist?
 
 #### Summary 
 
