@@ -75,5 +75,5 @@ What are the minimum metadata standards for your experiment/datatype -
 
 Why not everyone needs to be an expert in everything - 
 
-L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, 'Bioinformatics Curriculum Guidelines: **Toward a Definition of Core Competencies'**, PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
+L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, **'Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies'**, PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
 
