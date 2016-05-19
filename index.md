@@ -5,7 +5,7 @@ title: Genomics data - Metadata and tidiness
 minutes: 20
 ---
 
-## Learning Objectives {.objectives} 
+## Learning Objectives 
 * Think about and understand the types of metadata a sequencing experiment will generate
 * Make decisions about how (if) data will be stored, archived, shared, etc. 
 * Anticipate strategies we will need to learn in the rest of the lesson set. 
