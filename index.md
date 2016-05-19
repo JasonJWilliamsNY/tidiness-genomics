@@ -5,7 +5,7 @@ title: Genomics data - Metadata and tidiness
 minutes: 20
 ---
 
-## Learning Objectives 
+## Learning Objectives {.objectives} 
 * Think about and understand the types of metadata a sequencing experiment will generate
 * Make decisions about how (if) data will be stored, archived, shared, etc. 
 * Anticipate strategies we will need to learn in the rest of the lesson set. 
@@ -51,7 +51,7 @@ The first step in sending your sample for sequencing will be to complete a form 
 
 When the data come back from the facility, you will receive some documentation (metadata) as well as the sequence files themselves. Download and examine the following file - here provided both as an excel and a text file:
 
-- [Sequencing results - excel](./sequencing_results_metadata.xlsx)
+- [Sequencing results - excel](http://de.iplantcollaborative.org/dl/d/94749C20-0DA6-45A6-8CA0-11D6A7C75E78/sequencing_results_metadata.xls)
 - [Sequencing results - text](./sequencing_results_metadata.txt)
 
 **Questions**
@@ -77,4 +77,3 @@ What are the minimum metadata standards for your experiment/datatype -
 Why not everyone needs to be an expert in everything - 
 
 L. Welch, F. Lewitter, R. Schwartz, C. Brooksbank, P. Radivojac, B. Gaeta and M. Schneider, **'Bioinformatics Curriculum Guidelines: Toward a Definition of Core Competencies'**, PLoS Comput Biol, vol. 10, no. 3, p. e1003496, 2014.
-
